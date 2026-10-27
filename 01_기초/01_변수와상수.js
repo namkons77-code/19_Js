@@ -8,7 +8,6 @@
 // age = 30;
 // console.log(age);
 
-
 // 상수
 
 // const age = 25;
@@ -24,10 +23,7 @@
 // let 202 = "g": //예약어 사용 못함
 // let const = "g":
 
-
 // let code = 1;
 // let Code = 2;
 // console.log(code);
 // console.log(Code);
-
-
