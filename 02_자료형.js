@@ -84,6 +84,7 @@
 
 // let numC = parseInt(strA, 10);
 // let numD = parseInt(strB, 10);
+console.log(parseInt("10", 2));
 // console.log(numC);
 // console.log(numD);
 
