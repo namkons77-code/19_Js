@@ -51,7 +51,7 @@ console.log(calcC() && calcD());
 
 //--------------------------------------------
 
-function getName() {
+function getName(person) {
   return person && person.name;
 }
 
