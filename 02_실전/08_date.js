@@ -36,7 +36,7 @@ console.log(date7.getMinutes());
 console.log(date7.getSeconds());
 console.log(date7.getMilliseconds());
 
-let date8 = new Date(2000, 9, 10);
+let date8 = new Date(2008, 9, 10);
 date8.setFullYear(2021);
 date8.setMonth(10);
 console.log(date8);
