@@ -40,3 +40,33 @@ let date8 = new Date(2008, 9, 10);
 date8.setFullYear(2021);
 date8.setMonth(10);
 console.log(date8);
+
+//--------------------------------------------
+
+console.log("객체출력하기");
+
+const today = new Date(2013, 9, 10, 22);
+console.log(today);
+console.log(today.toString());
+console.log(today.toDateString());
+
+console.log("--------------------------------");
+//--------------------------------------------
+
+function moveMonth(date, moveMonth) {
+  const curTimeStamp = date.getTime();
+  console.log(curTimeStamp);
+  const curMonth = date.getMonth();
+  console.log(curMonth);
+  const resDate = new Date(curTimeStamp);
+  console.log(resDate);
+  resDate.setMonth(curMonth + moveMonth);
+  return resDate;
+}
+
+const dateA = new Date("2000-10-10");
+console.log("A: ", dateA);
+const dateB = moveMonth(dateA, 1);
+console.log("B: ", dateB);
+const dateC = moveMonth(dateA, -2);
+console.log("C: ", dateC);
